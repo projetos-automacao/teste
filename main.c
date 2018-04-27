@@ -3,14 +3,20 @@
 
 int main()
 {
-float Num =0;
+int Num;
 
     printf("Digite um numero\n");
 
-    scanf("%f",&Num);
+    scanf("%d",&Num);
 
-    printf("O numero eh: %f", Num);
+    if(Num%2==0)
 
+    printf("O numero %d eh par\a",Num);
+
+    else
+
+    printf("O numero eh %d eh impar\a", Num);
 
     return 0;
 }
+

@@ -3,6 +3,14 @@
 
 int main()
 {
-    printf("Hello world!\n");
+float Num =0;
+
+    printf("Digite um numero\n");
+
+    scanf("%f",&Num);
+
+    printf("O numero eh: %f", Num);
+
+
     return 0;
 }
